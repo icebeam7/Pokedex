@@ -1,0 +1,8 @@
+Pokedex Information: https://docs.google.com/spreadsheets/d/14Clz2CCkDa6DLUpSqFK5V1B6SCXLgE5BcpYg31gxiTc/edit?usp=sharing
+
+Azure Function: https://pokedex.azurewebsites.net/api/pokedex-function?code=EDbXA2CYF7DUh6DKY4ogrELCqSKwoh24NrUZsO7T0RFk5G9AGlyb6A==
+Enviar en el request body el parámetro NombrePokemon con su valor:
+
+{
+    "NombrePokemon": "Pichu"
+}
