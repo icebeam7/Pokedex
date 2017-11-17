@@ -5,13 +5,16 @@
              BackgroundColor="#DC0A2D">
     <ContentPage.Content>
         <StackLayout Padding="10">
-            <StackLayout Orientation="Horizontal">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                 <Button x:Name="btnCamara" x:Id="btnCamara" Text="Cámara" Clicked="btnCamara_Clicked" Margin="10" WidthRequest="100" BackgroundColor="#000000" TextColor="White"/>
                 <Button x:Name="btnGaleria" x:Id="btnGaleria" Text="Galería" Clicked="btnGaleria_Clicked" Margin="10" WidthRequest="100" BackgroundColor="#000000" TextColor="White"/>
             </StackLayout>
             <Image x:Name="imgFoto" WidthRequest="150" HeightRequest="150" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" Margin="5"/>
             <Button x:Name="btnClasificar" Text="¿Quién es ese Pokémon?" Clicked="btnClasificar_Clicked" HorizontalOptions="CenterAndExpand" Margin="5" BackgroundColor="#000000" TextColor="White"/>
+            <ActivityIndicator x:Name="actBuscando" IsVisible="False" IsRunning="False" IsEnabled="False"/>
             <Label x:Name="lblResultado" Text="---" TextColor="#BAF73C" Margin="5" FontSize="Large"/>
+
+            <Label x:Name="lblDetalle" TextColor="White" Margin="5" FontSize="Medium"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

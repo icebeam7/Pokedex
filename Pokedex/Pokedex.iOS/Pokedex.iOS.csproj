@@ -127,6 +127,18 @@
     <Reference Include="Plugin.Media.Abstractions, Version=2.6.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xam.Plugin.Media.2.6.2\lib\Xamarin.iOS10\Plugin.Media.Abstractions.dll</HintPath>
     </Reference>
+    <Reference Include="Plugin.SimpleAudioPlayer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xam.Plugin.SimpleAudioPlayer.1.0.1\lib\Xamarin.iOS10\Plugin.SimpleAudioPlayer.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.SimpleAudioPlayer.Abstractions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xam.Plugin.SimpleAudioPlayer.1.0.1\lib\Xamarin.iOS10\Plugin.SimpleAudioPlayer.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.TextToSpeech, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xam.Plugins.TextToSpeech.3.0.1\lib\Xamarin.iOS10\Plugin.TextToSpeech.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.TextToSpeech.Abstractions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xam.Plugins.TextToSpeech.3.0.1\lib\Xamarin.iOS10\Plugin.TextToSpeech.Abstractions.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.IO.Compression" />
     <Reference Include="System.Net.Http" />
@@ -157,6 +169,1992 @@
       <Project>{682d0f77-c8e0-4331-8772-14f85eae3339}</Project>
       <Name>Pokedex</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\001.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\002.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\003.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\004.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\005.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\006.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\007.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\008.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\009.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\010.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\011.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\012.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\013.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\014.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\015.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\016.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\017.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\018.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\019.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\020.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\021.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\022.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\023.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\024.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\025.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\026.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\027.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\028.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\029.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\030.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\031.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\032.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\033.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\034.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\035.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\036.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\037.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\038.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\039.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\040.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\041.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\042.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\043.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\044.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\045.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\046.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\047.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\048.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\049.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\050.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\051.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\052.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\053.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\054.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\055.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\056.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\057.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\058.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\059.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\060.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\061.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\062.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\063.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\064.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\065.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\066.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\067.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\068.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\069.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\070.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\071.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\072.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\073.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\074.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\075.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\076.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\077.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\078.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\079.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\080.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\081.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\082.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\083.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\084.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\085.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\086.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\087.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\088.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\089.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\090.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\091.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\092.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\093.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\094.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\095.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\096.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\097.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\098.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\099.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\100.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\101.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\102.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\103.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\104.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\105.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\106.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\107.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\108.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\109.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\110.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\111.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\112.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\113.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\114.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\115.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\116.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\117.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\118.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\119.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\120.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\121.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\122.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\123.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\124.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\125.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\126.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\127.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\128.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\129.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\130.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\131.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\132.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\133.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\134.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\135.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\136.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\137.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\138.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\139.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\140.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\141.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\142.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\143.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\144.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\145.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\146.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\147.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\148.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\149.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\150.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\151.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\152.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\153.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\154.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\155.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\156.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\157.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\158.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\159.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\160.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\161.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\162.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\163.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\164.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\165.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\166.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\167.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\168.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\169.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\170.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\171.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\172.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\173.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\174.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\175.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\176.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\177.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\178.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\179.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\180.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\181.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\182.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\183.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\184.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\185.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\186.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\187.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\188.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\189.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\190.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\191.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\192.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\193.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\194.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\195.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\196.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\197.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\198.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\199.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\200.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\201.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\202.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\203.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\204.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\205.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\206.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\207.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\208.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\209.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\210.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\211.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\212.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\213.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\214.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\215.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\216.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\217.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\218.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\219.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\220.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\221.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\222.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\223.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\224.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\225.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\226.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\227.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\228.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\229.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\230.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\231.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\232.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\233.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\234.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\235.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\236.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\237.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\238.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\239.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\240.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\241.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\242.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\243.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\244.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\245.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\246.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\247.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\248.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\249.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\250.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\251.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\252.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\253.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\254.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\255.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\256.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\257.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\258.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\259.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\260.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\261.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\262.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\263.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\264.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\265.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\266.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\267.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\268.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\269.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\270.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\271.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\272.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\273.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\274.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\275.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\276.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\277.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\278.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\279.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\280.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\281.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\282.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\283.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\284.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\285.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\286.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\287.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\288.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\289.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\290.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\291.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\292.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\293.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\294.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\295.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\296.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\297.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\298.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\299.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\300.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\301.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\302.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\303.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\304.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\305.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\306.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\307.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\308.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\309.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\310.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\311.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\312.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\313.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\314.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\315.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\316.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\317.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\318.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\319.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\320.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\321.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\322.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\323.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\324.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\325.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\326.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\327.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\328.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\329.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\330.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\331.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\332.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\333.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\334.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\335.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\336.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\337.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\338.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\339.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\340.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\341.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\342.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\343.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\344.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\345.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\346.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\347.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\348.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\349.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\350.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\351.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\352.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\353.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\354.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\355.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\356.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\357.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\358.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\359.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\360.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\361.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\362.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\363.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\364.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\365.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\366.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\367.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\368.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\369.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\370.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\371.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\372.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\373.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\374.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\375.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\376.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\377.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\378.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\379.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\380.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\381.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\382.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\383.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\384.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\385.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\386.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\386-1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\386-2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\386-3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\387.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\388.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\389.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\390.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\391.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\392.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\393.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\394.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\395.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\396.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\397.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\398.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\399.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\400.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\401.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\402.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\403.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\404.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\405.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\406.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\407.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\408.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\409.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\410.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\411.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\412.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\413.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\413-1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\413-2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\414.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\415.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\416.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\417.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\418.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\419.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\420.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\421.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\422.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\423.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\424.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\425.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\426.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\427.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\428.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\429.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\430.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\431.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\432.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\433.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\434.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\435.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\436.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\437.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\438.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\439.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\440.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\441.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\442.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\443.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\444.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\445.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\446.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\447.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\448.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\449.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\450.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\451.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\452.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\453.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\454.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\455.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\456.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\457.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\458.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\459.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\460.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\461.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\462.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\463.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\464.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\465.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\466.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\467.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\468.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\469.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\470.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\471.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\472.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\473.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\474.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\475.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\476.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\477.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\478.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\479.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\479-1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\479-2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\479-3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\479-4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\479-5.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\480.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\481.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\482.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\483.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\484.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\485.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\486.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\487.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\487-1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\488.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\489.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\490.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\491.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\492.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\492-1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\493.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\494.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\495.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\496.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\497.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\498.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\499.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\500.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\501.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\502.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\503.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\504.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\505.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\506.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\507.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\508.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\509.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\510.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\511.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\512.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\513.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\514.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\515.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\516.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\517.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\518.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\519.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\520.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\521.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\522.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\523.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\524.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\525.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\526.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\527.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\528.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\529.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\530.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\531.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\532.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\533.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\534.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\535.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\536.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\537.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\538.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\539.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\540.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\541.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\542.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\543.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\544.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\545.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\546.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\547.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\548.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\549.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\550.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\551.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\552.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\553.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\554.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\555.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\556.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\557.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\558.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\559.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\560.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\561.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\562.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\563.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\564.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\565.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\566.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\567.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\568.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\569.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\570.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\571.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\572.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\573.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\574.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\575.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\576.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\577.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\578.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\579.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\580.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\581.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\582.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\583.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\584.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\585.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\586.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\587.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\588.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\589.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\590.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\591.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\592.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\593.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\594.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\595.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\596.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\597.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\598.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\599.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\600.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\601.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\602.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\603.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\604.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\605.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\606.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\607.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\608.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\609.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\610.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\611.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\612.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\613.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\614.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\615.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\616.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\617.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\618.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\619.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\620.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\621.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\622.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\623.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\624.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\625.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\626.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\627.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\628.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\629.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\630.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\631.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\632.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\633.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\634.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\635.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\636.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\637.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\638.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\639.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\640.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\641.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\642.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\643.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\644.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\645.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\646.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\647.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\648.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\649.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pokesonidos\651.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

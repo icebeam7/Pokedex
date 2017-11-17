@@ -1,10 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using Xamarin.Forms;
 using System.IO;
 using Pokedex.Servicios;
 using Xamarin.Forms.Xaml;
 using System.Threading.Tasks;
+using Pokedex.Modelos;
+using Pokedex.Helpers;
 
 namespace Pokedex.Paginas
 {
@@ -16,6 +17,13 @@ namespace Pokedex.Paginas
         public PaginaPokedex()
         {
             InitializeComponent();
+        }
+
+        void MostrarIndicador(bool mostrar)
+        {
+            actBuscando.IsVisible = mostrar;
+            actBuscando.IsRunning = mostrar;
+            actBuscando.IsEnabled = mostrar;
         }
 
         async Task ObtenerImagen(bool camara)
@@ -47,9 +55,21 @@ namespace Pokedex.Paginas
         {
             if (streamCopy != null)
             {
+                MostrarIndicador(true);
                 streamCopy.Seek(0, SeekOrigin.Begin);
                 var resultado = await ServicioClasificador.ClasificarImagen(streamCopy);
                 lblResultado.Text = $"Es... {resultado}";
+
+                if (resultado != Constantes.PokemonNoIdentificado)
+                {
+                    Pokemon pokemon = await ServicioPokedexInfo.ObtenerInfo(resultado);
+
+                    lblDetalle.Text = $"Tipo(s): {pokemon.Tipo1}/{pokemon.Tipo2}\n\nEspecie: {pokemon.Especie}\n\n{pokemon.Descripcion}";
+                    ServicioAudio.PlayAudio(pokemon.ID);
+                    await ServicioTextToSpeech.Speak($"{pokemon.Nombre}, {pokemon.Especie}, {pokemon.Descripcion}");
+                }
+
+                MostrarIndicador(false);
             }
             else
             {

@@ -32,7 +32,7 @@ namespace Pokedex.Servicios
                         if (cv.Predictions.Count > 0)
                         {
                             var prediccion = ObtenerPrediccion(cv);
-                            return prediccion.Probability > 0.5 ? prediccion.Tag : "Pokémon no identificado en la base de datos";
+                            return prediccion.Probability > 0.5 ? prediccion.Tag : Constantes.PokemonNoIdentificado;
                             //return $"{prediccion.Tag} ({Math.Round(prediccion.Probability * 100, 2):0.##} %)";
                         }
                         else
